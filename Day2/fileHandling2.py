@@ -1,0 +1,15 @@
+f=open("name.txt","w")
+f.write("Shreya")
+f.write("\nAastha")
+f.close()
+print("File created")
+
+f=open("name.txt","r")
+constant=f.read()
+print(constant)
+f.close()
+
+f=open("name.txt","a")
+f.write("\nShreyashi")
+f.close()
+print("Name appended")
