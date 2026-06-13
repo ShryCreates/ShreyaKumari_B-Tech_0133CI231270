@@ -14,4 +14,11 @@ class BankAccount:
                 
     def get_balance(self):
         print(f"Balance:{self.__balance}")
-                
+
+acc1 = BankAccount()
+acc1.deposit(2000)
+acc1.withdraw(1000)
+acc2 = BankAccount()
+acc2.deposit(5000)
+acc2.withdraw(10000)
+        
